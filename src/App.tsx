@@ -96,7 +96,7 @@ const App = () => {
         return () => clearInterval(interval);
     }, [colors]);
 
-    return <CircleDisplay circle_item_spacing={2.5} circle_spacing={40} circle_radius={40} dataset={colors.slice(0, 200)} />;
+    return <CircleDisplay circle_item_spacing={2.5} circle_spacing={24} circle_radius={1} dataset={colors} />;
 };
 
 export default App;
